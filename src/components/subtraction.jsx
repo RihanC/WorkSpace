@@ -1,6 +1,6 @@
 import React from 'react'
 
-const subtraction = () => {
+const Subtraction = () => {
   return (
     <div>
         <h1>Subtraction</h1>
@@ -8,4 +8,4 @@ const subtraction = () => {
   )
 }
 
-export default subtraction
+export default Subtraction

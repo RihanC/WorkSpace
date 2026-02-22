@@ -1,6 +1,6 @@
 import React from 'react'
 
-const multiplication = () => {
+const Multiplication = () => {
   return (
     <div>
       <h1>Multiplication</h1>
@@ -8,4 +8,4 @@ const multiplication = () => {
   )
 }
 
-export default multiplication
+export default Multiplication

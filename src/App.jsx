@@ -4,14 +4,13 @@ import Subtraction from "./components/Subtraction";
 import Multiplication from "./components/Multiplication";
 import Division from "./components/Division";
 
-
 function App() {
   return (
     <>
-      <addition />
-      <subtraction />
-      <multiplication />
-      <division />
+      <Addition />
+      <Subtraction />
+      <Multiplication />
+      <Division />
     </>
   );
 }

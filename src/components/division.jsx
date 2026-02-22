@@ -1,6 +1,6 @@
 import React from 'react'
 
-const division = () => {
+const Division = () => {
   return (
     <div>
       <h1>Division</h1>
@@ -8,4 +8,4 @@ const division = () => {
   )
 }
 
-export default division
+export default Division

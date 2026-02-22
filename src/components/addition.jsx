@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const addition = () => {
+const Addition = () => {
   return (
     <div>
-      <h1 className='add'>Addition</h1>
+      <h1 className="add">Addition</h1>
     </div>
-  )
-}
+  );
+};
 
-export default addition
+export default Addition;
