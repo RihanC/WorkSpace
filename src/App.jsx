@@ -1,21 +1,17 @@
 import "./App.css";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Content from "./components/Content";
+import Addition from "./components/Addition";
+import Subtraction from "./components/Subtraction";
+import Multiplication from "./components/Multiplication";
+import Division from "./components/Division";
+
 
 function App() {
   return (
     <>
-      <div className="main">
-        <Header />
-      </div>
-      <div className="body-content">
-        <Content />
-      </div>
-      <br></br>
-      <div className="footer">
-        <Footer />
-      </div>
+      <addition />
+      <subtraction />
+      <multiplication />
+      <division />
     </>
   );
 }
