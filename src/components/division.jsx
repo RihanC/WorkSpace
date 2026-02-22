@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
 
 const Division = () => {
+  let handleDivClick = () => {
+    alert("divided two values");
+  };
   return (
     <div>
-      <h1>Division</h1>
+      <button onClick={handleDivClick}></button>
     </div>
-  )
-}
+  );
+};
 
-export default Division
+export default Division;

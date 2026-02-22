@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
 
 const Multiplication = () => {
+  let handleMulClick = () => {
+    alert("Multiplied two values");
+  };
   return (
     <div>
-      <h1>Multiplication</h1>
+      <button onClick={handleMulClick}></button>
     </div>
-  )
-}
+  );
+};
 
-export default Multiplication
+export default Multiplication;

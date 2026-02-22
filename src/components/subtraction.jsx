@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
 
 const Subtraction = () => {
+  let handleSubClick = () => {
+    alert("Subtracted two values");
+  };
   return (
     <div>
-        <h1>Subtraction</h1>
+      <button onClick={handleSubClick}></button>
     </div>
-  )
-}
+  );
+};
 
-export default Subtraction
+export default Subtraction;
